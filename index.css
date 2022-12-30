@@ -1,0 +1,112 @@
+body {
+
+}
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: blue;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+body {
+padding-top: 60px;
+padding-bottom: 40px;
+}
+.active {
+  background-color: #260280;
+  border:2px solid red;
+  color: white;
+  height: 40px;
+  padding-top: 50px;
+  text-align: center;
+  font-family: 'Brush Script MT', cursive;
+}
+h1 {
+  text-align: center;
+  color: gold;
+}
+ul {
+  list-style: none;
+}
+li::before {
+  content: ">>";
+  color: black;
+}
+img {
+border: 1px solid #800000;
+  border-radius: 1px;
+  padding: 5px;
+  width: 250px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.site1 {
+  margin: 0%;
+  position: relative;
+}
+.center {
+  text-align: center;
+}
+header {
+  z-index:999;
+  margin:0 auto;
+  border-bottom:1px solid #dadada;
+  width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+}
+hr {
+  width: 100%;
+  left: 0;
+  background-color: gold;
+}
+footer {
+  background-color: #190E1F;
+  color: #FFFFFF;
+  top:0;
+  left:0;
+  right:0;
+  z-index:999;
+  margin:0 auto;
+  border-bottom:1px solid #dadada;
+  width:100%;
+  height: 40px;
+  padding-top: 50px;
+}
+div.about {
+  font-family: 'luminari', fantasy;
+}
